@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TrLib", "TrLib\TrLib.vbproj", "{B9A6BC1F-30AE-4D91-8952-45385282FB4D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsApplication1", "WindowsApplication1\WindowsApplication1.vbproj", "{59B86144-EE77-4A45-B2C4-7BE93D8A9F90}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B9A6BC1F-30AE-4D91-8952-45385282FB4D} = {B9A6BC1F-30AE-4D91-8952-45385282FB4D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9A6BC1F-30AE-4D91-8952-45385282FB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A6BC1F-30AE-4D91-8952-45385282FB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A6BC1F-30AE-4D91-8952-45385282FB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A6BC1F-30AE-4D91-8952-45385282FB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B86144-EE77-4A45-B2C4-7BE93D8A9F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B86144-EE77-4A45-B2C4-7BE93D8A9F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B86144-EE77-4A45-B2C4-7BE93D8A9F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B86144-EE77-4A45-B2C4-7BE93D8A9F90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
